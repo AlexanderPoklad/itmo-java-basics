@@ -15,7 +15,7 @@ public class Calculator {
         return (1.0 * a) / b;
     }
     public double division(long a, long b){
-        return ((double)a) / b;
+        return ((double) a) / b;
     }
     public double division(double a, double b){
         return a / b;

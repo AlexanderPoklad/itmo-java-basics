@@ -12,7 +12,10 @@ public class Five {
         System.out.println("array = " + Arrays.toString(ints));
         System.out.println(isFive(ints));
     }
-    public static boolean isFive(int[] ints){
-        return ints.length >= 2 && (ints[0] == 3 || ints[ints.length - 1] == 3);
+    public static boolean isFive(int[] ints) {
+        if (ints.length == 0) {
+            return false;
+        }
+        return ints[0] == 3 || ints[ints.length - 1] == 3;
     }
 }

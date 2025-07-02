@@ -7,5 +7,10 @@ public class ChildClass extends MainClass {
         scanner.nextLine();
         return scanner.nextLine();
     }
+    @Override
+    public int getUserAge(){
+        System.out.println("Введите ваш полный возраст: ");
+        return scanner.nextInt();
+    }
 }
 

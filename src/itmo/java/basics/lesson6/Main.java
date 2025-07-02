@@ -47,10 +47,7 @@ public class Main {
 
         ChildClass child = new ChildClass();
 
-        int age = child.getUserAge();
-        System.out.println("Возраст: " + age);
-
-        String name = child.getUserName();
-        System.out.println("Имя: " + name);
+        String userInfo = child.getUserName();
+        System.out.println(userInfo);
     }
 }

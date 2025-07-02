@@ -14,7 +14,8 @@ public class MainClass {
     }
 
     public String getUserName() {
-        System.out.print("Введите ваше имя: ");
-        return scanner.next();
+        System.out.print("Введите ваш возраст: ");
+        int age = scanner.nextInt();
+        return "Возраст: " + age;
     }
 }

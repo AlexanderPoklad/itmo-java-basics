@@ -46,8 +46,6 @@ public class Main {
     public static void main(String[] args) {
 
         ChildClass child = new ChildClass();
-
-        String userInfo = child.getUserName();
-        System.out.println(userInfo);
+        child.getUserName();
     }
 }
